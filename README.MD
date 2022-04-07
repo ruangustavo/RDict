@@ -12,6 +12,14 @@ A dictionary collection for the purpose of learning foreign languages. Still und
 
 ## Installation
 
+### Install the requirements
+
 ```shell
 python -m pip install -r requirements.txt
+```
+
+### Clone the repository
+
+```shell
+git clone https://github.com/ruangustavo/RDict.git
 ```
