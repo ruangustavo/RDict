@@ -2,7 +2,7 @@
 
 ## Overview
 
-### A dictionary collection for the purpose of learning foreign languages. Still under development, supports only the Oxford Dictionary
+A dictionary collection for the purpose of learning foreign languages. Still under development, supports only the Oxford Dictionary
 
 ## Planned features
 
