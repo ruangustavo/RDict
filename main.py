@@ -1,10 +1,6 @@
-from keywordlookup.keyword import KeywordLookup
+from rdict.dictionaries.oxford import OxfordDictionary
 
 if __name__ == "__main__":
-    keyword = KeywordLookup("beam")
-    definitions = keyword.get_definitions()
-
-    print("Found {} definitions:".format(len(definitions)))
-
-    for definition in definitions:
-        print(definition + "\n")
+    oxford = OxfordDictionary()
+    oxford.query("big")
+    oxford.show()
