@@ -9,7 +9,7 @@ class HttpClient:
         if headers is not None:
             self.session.headers.update(headers)
 
-    def get(self, url):
+    def get_content(self, url):
         try:
             response = self.session.get(url)
             response.raise_for_status()

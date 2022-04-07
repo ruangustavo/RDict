@@ -23,7 +23,7 @@ class OxfordDictionary(DictBase):
 
     def get_entries(self, word):
         url = self.http.get_url(word, strictMatch=False)
-        json = self.http.get(url)
+        json = self.http.get_content(url)
 
         return [
             entry
